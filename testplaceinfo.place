@@ -1,0 +1,37 @@
+<!DOCTYPE place>
+
+
+<placeinfo>
+
+//tis a comment
+
+<PlaceData[name="TestPlaceInfo" description="helo" characterspawnpos=vector3(0,30,0)]>
+
+
+<"Part" name="Baseplate" color=rgb(161, 196, 140) size=vector3(64,0.5,64) position=vector3(0,-0.4,0) shape="Block" physics=false physicsparent=nil> //shape can be either block, ball, or cylinder
+
+
+<"Texture" face=top texture="AssetService/Surfaces/Studs.png" studspertilex=2 studspertiley=2> 
+
+//AssetService/Surfaces/Studs.png would point to https://github.com/yeahbuildsstuff/GameAssetServiceRepo/tree/main/Surfaces/Studs.png pretty self-explanatory
+
+<"Decal" face=front texture="AssetService/defaultface.png">
+
+
+<"Part">
+
+
+
+<"Part" name="MeshTestAndStuff" color=rgb(165,165,165) size=vector3(2,1,1) position=vector3(0,5,0) shape="Block" physics=true physicsparent="Baseplate">
+
+
+<"Mesh" name="Head" id="AssetService/head.obj">
+
+<"MeshTexture" face=front texture="AssetService/defaultface.png" mode=overlay> //mode can either be overlay or actualtexture overlay makes an ever so slightly bigger version of the mesh to put the texture on and actualtexture sets the texture of the actual object
+
+
+<"Part">
+
+
+
+<placeinfo>
