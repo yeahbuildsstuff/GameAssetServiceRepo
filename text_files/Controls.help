@@ -1,0 +1,7 @@
+
+<line.new> "Controls",Regular,40,Arimo
+<line.empty>
+<line.new> "WASD to move.",Regular,15,Arimo
+<line.new> "Number Keys to equip tools.",Regular,15,Arimo
+<line.new> "Right click and drag to move Camera",Regular,15,Arimo
+<line.new> "Esc To Close this popup",Regular,15,Arimo
