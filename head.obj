@@ -1,6 +1,4 @@
-# Blender 5.0.0
-# www.blender.org
-mtllib 2006head.mtl
+
 o Mesh
 v -0.299474 0.620610 -0.026200
 v -0.414061 0.596990 -0.036226
