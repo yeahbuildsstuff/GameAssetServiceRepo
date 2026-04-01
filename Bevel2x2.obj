@@ -1,6 +1,6 @@
 # Blender 5.1.0
 # www.blender.org
-mtllib Bevel2x2.mtl
+
 o Cube
 v 0.923339 0.923339 -1.000000
 v 0.923339 1.000000 -0.923339
